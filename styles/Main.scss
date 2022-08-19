@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lemonchiffon;
+}
+
+main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: lemonchiffon;
+    color: rgb(38, 38, 38);
+    padding: 2rem;
+}
+
+#Info {
+    margin-bottom: 1rem;
+    h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+#CenterColumn {
+    width: 40%;
+    margin: auto;
+}
+
+#UpcomingEntries {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgb(255, 242, 250);
+    .entry {
+        margin-bottom: 2rem;
+    }
+    .entry-main {
+        margin-bottom: .25rem;
+    }
+    .entry-date {
+        width: 100%;
+        text-align: right;
+        margin-bottom: .5rem;
+        span { 
+            text-decoration: underline;
+            font-style: italic;
+         }
+    }
+    .entry-location {
+        text-decoration: underline;
+        margin-bottom: .25rem;
+    }
+}
