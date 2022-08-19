@@ -15,6 +15,7 @@ main {
   background-color: lemonchiffon;
   color: rgb(38, 38, 38);
   padding: 2rem;
+  padding-bottom: 4rem;
 }
 
 #Info {
@@ -54,4 +55,36 @@ main {
 #UpcomingEntries .entry-location {
   text-decoration: underline;
   margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 997px) {
+  #CenterColumn {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 689px) {
+  #CenterColumn {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 533px) {
+  main {
+    padding-top: 3rem;
+  }
+  #Info h1 {
+    text-align: left;
+  }
+  #CenterColumn {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 447px) {
+  main {
+    padding: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  #CenterColumn {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Main.css.map */
